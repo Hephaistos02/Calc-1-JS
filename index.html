@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc-1 JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="calc-body">
+        <div class="section-1">
+            <div class="input-box">
+                <input type="text" id="textbox">
+
+            </div>
+        </div>
+        <div class="section-2">
+            <button style="color: purple;" onclick="myFunctionClear()" id="clear" >AC</button>
+            <button style="color: purple;"  onclick="myFunctionDelete()" id="delete" >DE</button>
+            <button style="color: purple;" onclick=" myFunctionDot()" id="dot">.</button>
+            <button style="color: purple;" onclick=" myFunctionDivide()" id="divide">/</button>
+        </div>
+        <div class="section-2">
+            <button onclick=" myFunction7()" id="seven">7</button>
+            <button onclick=" myFunction8()" id="eight">8</button>
+            <button onclick=" myFunction9()" id="nine">9</button>
+            <button style="color: purple;" onclick=" myFunctionStar()" id="star">*</button>
+        </div>
+
+
+        <div class="section-3">
+            <button onclick=" myFunction4()" id="four">4</button>
+            <button onclick=" myFunction5()" id="five">5</button>
+            <button onclick=" myFunction6()" id="six">6</button>
+            <button style="color: purple;" onclick=" myFunctionMinus()" id="minus">-</button>
+           
+        </div>
+
+        <div class="section-4">
+            <button onclick=" myFunction1()" id="one">1</button>
+            <button onclick=" myFunction2()" id="two">2</button>
+            <button onclick=" myFunction3()" id="three">3</button>
+            <button style="color: purple;" onclick=" myFunctionPlus()" id="plus">+</button>
+        </div>
+
+        <div class="section-5">
+            <button onclick=" myFunction0()" id="zero">0</button>
+            <button onclick=" myFunction00()" id="doublezero">00</button>
+            <button style="color: ghostwhite;" class="equal-btn" onclick=" myFunctionResult()" id="equal">=</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

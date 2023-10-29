@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    /* background-image: linear-gradient(180deg,aqua,white); */
+    /* background-image: linear-gradient(to left,purple, ghostwhite,ghostwhite,purple); */
+    background-image: linear-gradient(to left,black, purple,purple,black);
+    width: 100%;
+    height: 100vh;
+    
+
+}
+input{
+    text-align: right;
+    height: 100px;
+    font-size: 50px;
+    width: 300px; 
+    padding-top: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: ghostwhite;
+}
+.calc-body{
+    border: 2px solid black;
+     background-image: linear-gradient(to bottom right, black,purple);
+     padding-top: 5px;
+     padding-left: 3px;
+     padding-right: 3px;
+     padding-bottom: 5px;
+     
+}
+ button{
+    padding: 10px;
+    width: 65px;
+    height: 65px;
+    background-color: rgb(27, 27, 27);
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    margin: 6px;
+    font-weight: 700;
+    font-size: large;
+    box-shadow: -4px -4px 20px 0px rgba(247, 0, 255, 0.144);
+
+} 
+.section-1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.purple-clr button{
+    color: red;
+}
+.input-box{
+    display: flex;
+    flex-direction: row;
+}
+.section-2{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+.section-3{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.section-4{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.section-5{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.equal-btn{
+    
+    background-color: rgb(31, 29, 29);
+    width: 140px;
+   
+}
